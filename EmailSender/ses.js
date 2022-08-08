@@ -16,10 +16,10 @@ const sendEmail = async ()=>{
         const params = {
             Source: email,
             Destination: {
-                ToAddresses: ["sanjay82032@gmail.com"]
+                ToAddresses: <email>
             },
             Template: 'SecondTemplate',
-            TemplateData: '{ \"name\":\"sanjay\"}'
+            TemplateData: '{ \"name\":\"<name>\"}'
 
         }
 
